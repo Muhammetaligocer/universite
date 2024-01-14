@@ -1,0 +1,14 @@
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\bin\Debug\net8.0\Ödev 81-1.exe
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\bin\Debug\net8.0\Ödev 81-1.deps.json
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\bin\Debug\net8.0\Ödev 81-1.runtimeconfig.json
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\bin\Debug\net8.0\Ödev 81-1.dll
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\bin\Debug\net8.0\Ödev 81-1.pdb
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\obj\Debug\net8.0\Ödev 81-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\obj\Debug\net8.0\Ödev 81-1.AssemblyInfoInputs.cache
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\obj\Debug\net8.0\Ödev 81-1.AssemblyInfo.cs
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\obj\Debug\net8.0\Ödev 81-1.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\obj\Debug\net8.0\Ödev 81-1.dll
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\obj\Debug\net8.0\refint\Ödev 81-1.dll
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\obj\Debug\net8.0\Ödev 81-1.pdb
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\obj\Debug\net8.0\Ödev 81-1.genruntimeconfig.cache
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 81-1\Ödev 81-1\obj\Debug\net8.0\ref\Ödev 81-1.dll

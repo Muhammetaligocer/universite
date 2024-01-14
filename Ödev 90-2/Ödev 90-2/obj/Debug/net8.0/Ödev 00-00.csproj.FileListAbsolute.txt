@@ -1,0 +1,28 @@
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\bin\Debug\net8.0\Ödev 00-00.exe
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\bin\Debug\net8.0\Ödev 00-00.deps.json
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\bin\Debug\net8.0\Ödev 00-00.runtimeconfig.json
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\bin\Debug\net8.0\Ödev 00-00.dll
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\bin\Debug\net8.0\Ödev 00-00.pdb
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\obj\Debug\net8.0\Ödev 00-00.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\obj\Debug\net8.0\Ödev 00-00.AssemblyInfoInputs.cache
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\obj\Debug\net8.0\Ödev 00-00.AssemblyInfo.cs
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\obj\Debug\net8.0\Ödev 00-00.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\obj\Debug\net8.0\Ödev 00-00.dll
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\obj\Debug\net8.0\refint\Ödev 00-00.dll
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\obj\Debug\net8.0\Ödev 00-00.pdb
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\obj\Debug\net8.0\Ödev 00-00.genruntimeconfig.cache
+C:\Users\Muhammet Ali\source\repos\Ödev 00-00\Ödev 00-00\obj\Debug\net8.0\ref\Ödev 00-00.dll
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\obj\Debug\net8.0\Ödev 00-00.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\obj\Debug\net8.0\Ödev 00-00.AssemblyInfoInputs.cache
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\obj\Debug\net8.0\Ödev 00-00.AssemblyInfo.cs
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\obj\Debug\net8.0\Ödev 00-00.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\obj\Debug\net8.0\Ödev 00-00.dll
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\obj\Debug\net8.0\refint\Ödev 00-00.dll
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\obj\Debug\net8.0\Ödev 00-00.pdb
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\bin\Debug\net8.0\Ödev 00-00.exe
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\bin\Debug\net8.0\Ödev 00-00.deps.json
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\bin\Debug\net8.0\Ödev 00-00.runtimeconfig.json
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\bin\Debug\net8.0\Ödev 00-00.dll
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\bin\Debug\net8.0\Ödev 00-00.pdb
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\obj\Debug\net8.0\Ödev 00-00.genruntimeconfig.cache
+C:\Users\Muhammet Ali\Desktop\1.Dönem dersleri\Programlama Temelleri\Ödevler\Ödev 90-2\Ödev 90-2\obj\Debug\net8.0\ref\Ödev 00-00.dll

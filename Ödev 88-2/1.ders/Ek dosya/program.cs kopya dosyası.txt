@@ -1,0 +1,458 @@
+
+
+
+
+
+
+using Microsoft.VisualBasic;
+
+var kdvOrani = 1.18;
+        var urunA = 5000;
+        var urunB = 6000;
+        var urunC = 7000;
+        var urunD = 5500;
+
+
+
+        Console.WriteLine(urunA * kdvOrani);                   //urunA
+        Console.WriteLine(urunB * kdvOrani);                   //urunB
+        Console.WriteLine(urunC * kdvOrani);                   //urunC
+        Console.WriteLine(urunD * kdvOrani);                   //urunD
+
+
+
+
+
+
+        var sayi = 20;
+        var urunAdi = "Samsung S23";
+
+
+
+        Console.WriteLine(sayi);
+        Console.WriteLine(urunAdi);
+
+
+
+
+        var ogrenciAdi = "mami ";
+        var ogrenciSoyadi = "göçer";
+        var adSoyadi = ogrenciAdi + ogrenciSoyadi;
+        var ogrenciNo = "1080";
+        var ogrenciTc = "10238359146";
+        var ogrenciDogumYili = 2005;
+        var ogrenciYas = 2023 - ogrenciDogumYili;
+        var ogrenciAdres = "Hatay Antakya ";
+
+
+
+        Console.WriteLine(ogrenciAdi);
+        Console.WriteLine(ogrenciSoyadi);
+        Console.WriteLine(adSoyadi);
+        Console.WriteLine(ogrenciNo);
+        Console.WriteLine(ogrenciTc);
+        Console.WriteLine(ogrenciYas);
+        Console.WriteLine(ogrenciAdres);
+
+
+
+        var urun1_fiyat = 50;
+        var urun2_fiyat = 60.5;
+        var urun3_fiyat = 356.45;
+
+
+        var toplam = urun1_fiyat + urun2_fiyat + urun3_fiyat;
+
+        Console.WriteLine(toplam);
+
+        /*
+
+
+                       C# Veri Tipleri
+                       Value Types:             
+                              Tam sayı:             byte,short,int,long
+                              Ondalıklı sayılar:    float,double,decimal
+                              Diğer veri tipleri:   char,boolean,struct
+
+                        Reference Types:
+                              String,class,Array,Interface
+
+        ÖRNEKLER;
+
+
+           int sayii = 100;
+           decimal kdvOrani1 = 1.18m;
+           char cinsiyet = 'E';
+           string cinsiyet2 = "erkek";
+           var satisDurumu = false;
+
+        Veri tipi dönüşümüne neden ihtiyaç duyarız ? 
+
+        
+            Veri Tipi Dönüşümü
+            //implicit casting ==> bilinçsiz tür dönüşümü
+            //explicit casting ==> bilinçli tür dönüşümü
+
+        
+
+          Console.WriteLine("1.sayi: ");
+          var sayi1 = Convert.ToInt32("10");
+
+          Console.WriteLine("2.sayi: ");
+          var sayi2 = Convert.ToInt32("20");
+
+          var toplamm = sayi1 + sayi2;
+
+          Console.WriteLine(toplamm);
+      
+        */
+     //Nullable Types
+
+     int? maas = null;
+     bool? isActive = null;
+
+     Console.WriteLine(maas.HasValue);
+     Console.WriteLine(maas.GetValueOrDefault());    
+     Console.WriteLine(isActive.GetValueOrDefault());    
+    
+
+//   Strings: Karakter dizileri
+
+// Console.Write("adi:");
+// var ad = Console.ReadLine();
+
+// Console.Write("soyad:");
+// var soyad = Console.ReadLine();
+
+// Console.Write("yaş:");
+// var yas = Console.ReadLine();
+
+
+//string concat
+//string mesaj = ad + " " + soyad + " isimli kişi" + " " + yas + " yaşindadir";
+
+//string interpolation
+
+ // string mesaj = $"{ad}{soyad}isimli kişi {yas} yasindadir.";
+
+
+ //Console.WriteLine(mesaj);
+
+
+//        String Methods
+
+
+
+
+ //string mesaj1 = "Mami Gocer isimli kişi 18 yaşindadir. ";
+
+// var sonuc = mesaj1.length;              //Cümledeki karakter sayısını öğrenir
+// var sonuc = mesaj1.ToLower();           //Cümledeki tüm harfleri küçük yapar
+// var sonuc = mesaj1.ToUpper();           //Cümledeki tüm harfleri büyük yapar
+// var sonuc = mesaj1.Trim();              //Baştaki boşlukları doldurur
+//var sonuc = mesaj1.Split(" ");           //Boşluklardan ayırır hepsi birleşir
+// var sonuc = mesaj1[3];                  //Harfleri sayısına göre bulur
+//var sonuc = mesaj1.StartsWith("M");      //Harf başlamasını sorar evet veya hayır cevabı gelir
+//var sonuc = mesaj1.Contains("Mami")      //Direkt cümle içinde kelime arar
+//var sonuc = mesaj1.IndexOf("kişi");      //Cümle içinde kelime arar varsa sana başlangıç yerini söyler(-1 ALIRSAN YOKTUR)
+//var sonuc = mesaj1.Substring(10);        //Belirlenen sayıdan sonraki karakterleri alır
+//var sonuc = mesaj.replace("Mami","Mali") //Belirlenen kelimenin çıkarılıp eklenmesine yarar
+//var sonuc = mesaj.StartsWith("Mami)      //Cümlenin başlangıç kelimesini sorar
+ //Console.WriteLine(sonuc);
+
+                     //          STRİNG UYGULAMALARI
+   
+   
+   //1- Kaç karaktere sahiptir ?
+   //2-Hepsini küçük harf yapınız.
+   //3-'.' ile mi başlamaktadır ? 
+   //4-C# bilgisi hangi konumda bulunmaktadır ? 
+   //5-String 'C#' bilgisini içeriyor mu ?
+   //6-'Dili' kelimesi yerine 'dersleri' yazınız  (replace)
+
+
+
+string kursAdi = ".NET 7 ile C#programlama dili ";
+
+var karaktersayisi = kursAdi.Length;
+
+Console.WriteLine(karaktersayisi);
+
+var kucukharf = kursAdi.ToLower();
+Console.WriteLine(kucukharf);
+
+var nokta = kursAdi.StartsWith("."); //NOT ALINACAK
+Console.WriteLine(nokta);
+
+var yerbilgi = kursAdi.IndexOf("C#");
+Console.WriteLine("STRİNG . İLE BAŞLIYOR: "+ nokta);  //Zaten üstteki cevap evet diye değişkenle uğraşmadan yapıştırdık
+
+var konum = kursAdi.IndexOf("C#");
+Console.WriteLine("konumu " + konum);
+
+var iceriyomu = kursAdi.Contains("C#");
+Console.WriteLine(iceriyomu);
+
+var degis = kursAdi.Replace("dili","Dersleri");   
+Console.WriteLine(degis);
+
+
+
+//DATE TİME
+
+var simdi = DateTime.Now;
+
+
+Console.WriteLine(simdi);
+Console.WriteLine(simdi.Year);
+Console.WriteLine(simdi.Month);
+Console.WriteLine(simdi.Day);
+Console.WriteLine(simdi.DayOfWeek);
+Console.WriteLine(simdi.Hour);
+Console.WriteLine(simdi.Minute);
+Console.WriteLine(simdi.Second);
+
+DateTime dt = new DateTime(2018, 6, 10, 14, 1, 14);
+DateTime dt2 = dt.AddYears(1);
+DateTime dt3 = dt.AddHours(2);
+
+Console.WriteLine(dt2.Year);
+Console.WriteLine(dt3.Hour);
+
+
+
+
+var fark = simdi - dt;
+Console.WriteLine(fark.TotalDays);
+Console.WriteLine(fark.TotalHours);
+Console.WriteLine(fark.TotalMinutes);
+
+
+//Console.WriteLine(sonuc);
+
+                                   //DİZİLER
+
+string[]adlar=new string[5];
+
+adlar[0]="Ahmet";
+adlar[1]="Ali";
+adlar[2]="Ayşe";
+adlar[3]="hasan";
+adlar[4]="canan";
+
+string[]adlar1 ={"ahmet","ali","ayşe","hasan","canan"};
+
+                               //ÇOK BOYUTLU DİZİLER
+
+int[,]sayilar=new int[3,5];
+
+
+sayilar[0,0]=10;                   
+sayilar[0,1]=20;
+sayilar[0,2]=30;
+sayilar[0,3]=40;
+sayilar[0,4]=50;
+//***************
+sayilar[1,0]=10;
+sayilar[1,1]=20;
+sayilar[1,2]=30;
+sayilar[1,3]=40;
+sayilar[1,4]=50;
+//***************
+sayilar[2,0]=10;
+sayilar[2,1]=20;
+sayilar[2,2]=30;            
+sayilar[2,3]=40;
+sayilar[2,4]=50;
+
+
+//Arrays (Diziler)
+
+var kursadi1 = ".net 7 ile c# programlama dersleri".Split(" ");
+
+// string[] isimler = new string[5];
+// isimler[0] = "Ahmet";
+// isimler[1] = "Ali";
+// isimler[2] = "Canan";
+// isimler[3] = "Çinar";
+// isimler[4] = "Esra";
+
+string[] isimler = {"ahmet","ali","canan","çinar","esra"};
+
+// string[] numaralar = {"100","200","300","400","500"};   // iki şekilde de olur 
+
+int[] numaralar = new int[5];
+numaralar[0] = 100;
+numaralar[1] = 200;
+numaralar[2] = 300;
+numaralar[3] = 400;
+numaralar[4] = 500;
+
+
+
+Console.WriteLine($"{numaralar[0]} numarali öğrencinin adi {isimler[0]}");
+Console.WriteLine($"{numaralar[1]} numarali öğrencinin adi {isimler[1]}");
+Console.WriteLine($"{numaralar[2]} numarali öğrencinin adi {isimler[2]}");
+
+//Dizi Metotları
+
+string[] sehirler = {"istanbul","rize","ankara"};
+int[] plakalar = {34,53,06};
+
+sehirler[0] = "HATAY";
+
+sehirler.SetValue("izmir",1);    
+
+Console.WriteLine(sehirler[1]);                 //ÖNEMLİ YER İYİ ÇALIŞ
+Console.WriteLine(sehirler.Length);
+Console.WriteLine(Array.IndexOf(sehirler,"HATAY"));
+
+Array.Sort(sehirler);                        //KÜÇÜKTRN BÜYÜĞE SIRALAR
+Array.Sort(plakalar);                        //KÜÇÜKTRN BÜYÜĞE SIRALAR
+
+Console.WriteLine(sehirler.GetValue(0));    
+Console.WriteLine(sehirler.GetValue(1));
+Console.WriteLine(sehirler.GetValue(2));
+
+Array.Reverse(plakalar);                     //BÜYÜKTEN KÜÇÜĞE SIRALAR
+Array.Reverse(sehirler);                     //BÜYÜKTEN KÜÇÜĞE SIRALAR
+
+Console.WriteLine(plakalar.GetValue(0));  
+Console.WriteLine(sehirler.GetValue(0));  
+
+//Array Slicing
+
+
+string[] sehirler1 = {"zonguldak","rize","kocaeli","istanbul","ankara"};
+
+var sonucc = sehirler1[0..3];
+Console.WriteLine(sonucc.Length);
+
+foreach(var i in sehirler1) {                    //i içerisine her şehri kopyaladık
+Console.WriteLine(i);          
+
+}
+
+foreach(var a in sehirler1[0..3]){              //a içerisine her şehri kopyaladık
+Console.WriteLine(a);
+
+}
+
+
+// Console.WriteLine(sonucc[0]);
+// Console.WriteLine(sonucc[1]);
+// Console.WriteLine(sonucc[2]);
+
+                                    //DİZİ UYGULAMA 
+ //Ogrenciler ve notlar isminde 2 tane dizi oluşturunuz ve dizi elemanlarını kullanıcıdan aldığınız değerlele doldurunuz
+ // (3 ogrenci)
+ 
+ //ogrenciler dizisi kaç elemanlıdır yazdırınız.
+ //ilk 2 öğrencinin ad ve not bılgılerını yazdırınız
+ //tüm ogrencilerin not ortalaması nedir ?
+
+
+var ogrencilerr = new string[3];
+var notlar = new int[3];
+
+
+Console.WriteLine("1.öğrenci adi: ");
+ogrencilerr[0] = Console.ReadLine() ??"";
+
+Console.WriteLine("1.öğrenci notu: ");
+notlar[0] = Convert.ToInt32(Console.ReadLine());
+
+//*****************
+
+Console.WriteLine("2.öğrenci adi: ");
+ogrencilerr[1] = Console.ReadLine() ??"";
+
+Console.WriteLine("2.öğrenci notu: ");
+notlar[1] = Convert.ToInt32(Console.ReadLine());
+
+//***************
+
+
+Console.WriteLine("3.öğrenci adi: ");
+ogrencilerr[2] = Console.ReadLine() ??"";
+
+Console.WriteLine("3.öğrenci notu: ");
+notlar[2] = Convert.ToInt32(Console.ReadLine());
+
+
+foreach(var ogrenci in ogrencilerr[..2]){            //TEKRAR EDER İSİMLERİ BAŞTAN SONA
+   Console.WriteLine(ogrenci);
+}
+
+foreach(var nott in notlar[..2]){                     //TEKRAR EDER NOTLARI BAŞTAN SONA
+   Console.WriteLine(nott);
+}
+
+Console.WriteLine("öğrenciler dizisinin eleman sayisi " + ogrencilerr.Length);
+
+var not1 = notlar[0];
+var not2 = notlar[1];
+var not3 = notlar[2];
+var ortalama = (not1+not2+not3) /3 ;
+
+Console.WriteLine("öğrencilerin not ortalamasi "+ ortalama);
+
+
+                                           //ÇOK BOYUTLU DİZİLER
+//                                int[,] notlar = new int[3,3];
+//                             sayılar[0,0]= 50;  sayilar[1,0];
+//                             sayilar[0,1]= 60;  sayilar[1,1];
+//                             sayilar[0,2]= 70;  sayilar[1,2];
+
+
+//Ali      => 50,60,70
+//Ahmet    => 60,80,90
+//Canan    => 50,70,30
+
+// Her öğrencinin not ortalamasını hesaplayınız.
+string[] ogrenciler1 = {"Ali","Ahmet","Canan"};
+
+int[,] notlari = new int[3,3];
+//  Ali
+notlari[0,0] = 50;
+notlari[0,1] = 60;
+notlari[0,2] = 70;
+//  Ahmet
+notlari[1,0] = 60;
+notlari[1,1] = 80;
+notlari[1,2] = 90;
+//  Canan
+notlari[2,0] = 50;
+notlari[2,1] = 70;
+notlari[2,2] = 30;
+var ortalama_1 = (notlari[0,0] + notlari[0,1] + notlari[0,2]) /3 ;
+var ortalama_2 = (notlari[1,0] + notlari[1,1] + notlari[1,2]) /3 ;
+var ortalama_3 = (notlari[2,0] + notlari[2,1] + notlari[2,2]) /3 ;
+Console.WriteLine($"{ogrenciler1[0]} isimli öğrencinin not ortalamasi: {ortalama_1}");
+Console.WriteLine($"{ogrenciler1[0]} isimli öğrencinin not ortalamasi: {ortalama_2}");
+Console.WriteLine($"{ogrenciler1[0]} isimli öğrencinin not ortalamasi: {ortalama_3}");
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+

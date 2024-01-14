@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "88YCBfHIsnzSv6qoeQpqBTv2JwVS20KIKnmEok49UWB2i6VwzLH0raajR/wy8iTs8teLhQT//ujxP8OUNHbufA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Muhammet Ali\\Desktop\\Çalışma\\1.ders\\consoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Muhammet Ali\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Muhammet Ali\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Muhammet Ali\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Muhammet Ali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
